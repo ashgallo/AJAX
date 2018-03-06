@@ -1,0 +1,7 @@
+<h2 class="center">Products</h2>
+<hr />
+  <% @products.each do |product| %>
+    <li
+      class="product-item"
+      data-id=<%= product.id %>
+    </li>
